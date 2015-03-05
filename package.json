@@ -1,0 +1,17 @@
+{
+  "name": "pagesnap-firefox",
+  "version": "1.0.0",
+  "description": "Simple web server to return screenshots of web pages (taken with Firefox).",
+  "main": "pagesnap.js",
+  "dependencies": {
+    "express": "^4.12.2",
+    "slimerjs": "^0.9.5",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Brackett",
+  "license": "MIT"
+}
