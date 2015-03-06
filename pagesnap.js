@@ -35,7 +35,7 @@ app.get('/:url.png', function(req, res) {
   var slimer = spawn(
     slimerCommand,
     slimerArgs.concat([url]),
-    {env: {SLIMERJSLAUNCHER: "/usr/bin/firefox"}});
+    {env: {SLIMERJSLAUNCHER: FIREFOX_PATH}});
   
   // TODO: handle errors
   slimer.stdout.pipe(through2(function(chunk, encoding, callback) {
